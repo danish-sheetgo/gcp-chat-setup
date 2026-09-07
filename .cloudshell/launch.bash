@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-chmod +x setup_chat_app.sh
-./setup_chat_app.sh
+cd ~/cloudshell_open/gcp-chat-setup 2>/dev/null || true
+./auto_run.sh
